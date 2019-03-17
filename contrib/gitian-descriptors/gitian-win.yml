@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/Prism-Network/prismcoin.git"
+- "url": "https://github.com/Prism-Network/prism.git"
   "dir": "prism"
 files: []
 script: |
