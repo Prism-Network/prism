@@ -1,1 +1,2 @@
-# prismcoin
+Prism Currency Repository
+=====================================

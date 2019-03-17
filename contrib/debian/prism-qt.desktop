@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LUM
+Comment=LUM P2P Cryptocurrency
+Comment[fr]=LUM, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=LUM, eşten eşe kriptografik sanal para birimi
+Exec=prism-qt %u
+Terminal=false
+Type=Application
+Icon=prism128
+MimeType=x-scheme-handler/prism;
+Categories=Office;Finance;

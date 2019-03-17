@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/prism_bg.qm</file>
+        <file alias="ca">locale/prism_ca.qm</file>
+        <file alias="cs">locale/prism_cs.qm</file>
+        <file alias="da">locale/prism_da.qm</file>
+        <file alias="de">locale/prism_de.qm</file>
+        <file alias="en">locale/prism_en.qm</file>
+        <file alias="en_US">locale/prism_en_US.qm</file>
+        <file alias="eo">locale/prism_eo.qm</file>
+        <file alias="es">locale/prism_es.qm</file>
+        <file alias="es_ES">locale/prism_es_ES.qm</file>
+        <file alias="fi">locale/prism_fi.qm</file>
+        <file alias="fr_FR">locale/prism_fr_FR.qm</file>
+        <file alias="hi_IN">locale/prism_hi_IN.qm</file>
+        <file alias="hr">locale/prism_hr.qm</file>
+        <file alias="hr_HR">locale/prism_hr_HR.qm</file>
+        <file alias="it">locale/prism_it.qm</file>
+        <file alias="ja">locale/prism_ja.qm</file>
+        <file alias="ko_KR">locale/prism_ko_KR.qm</file>
+        <file alias="lt_LT">locale/prism_lt_LT.qm</file>
+        <file alias="nl">locale/prism_nl.qm</file>
+        <file alias="pl">locale/prism_pl.qm</file>
+        <file alias="pt">locale/prism_pt.qm</file>
+        <file alias="pt_BR">locale/prism_pt_BR.qm</file>
+        <file alias="ro_RO">locale/prism_ro_RO.qm</file>
+        <file alias="ru">locale/prism_ru.qm</file>
+        <file alias="sk">locale/prism_sk.qm</file>
+        <file alias="sv">locale/prism_sv.qm</file>
+        <file alias="tr">locale/prism_tr.qm</file>
+        <file alias="uk">locale/prism_uk.qm</file>
+        <file alias="vi">locale/prism_vi.qm</file>
+        <file alias="zh_CN">locale/prism_zh_CN.qm</file>
+        <file alias="zh_TW">locale/prism_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,26 @@
+[Unit]
+Description=LUM's distributed currency daemon
+After=network.target
+
+[Service]
+User=prism
+Group=prism
+
+Type=forking
+PIDFile=/var/lib/prismd/prismd.pid
+
+ExecStart=/usr/bin/prismd -daemon -pid=/var/lib/prismd/prismd.pid \
+          -conf=/etc/prism/prism.conf -datadir=/var/lib/prismd
+
+ExecStop=-/usr/bin/prism-cli -conf=/etc/prism/prism.conf \
+         -datadir=/var/lib/prismd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
